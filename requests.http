@@ -1,0 +1,7 @@
+POST http://localhost:8080/generateFlashCard
+Content-Type: application/json
+
+{
+  "text": "Die Photosynthese ist der Prozess, bei dem Pflanzen mithilfe von Chlorophyll Lichtenergie in chemische Energie umwandeln. Dabei wird aus Kohlendioxid und Wasser unter Einfluss von Sonnenlicht Glukose und Sauerstoff produziert. Sie findet hauptsächlich in den Chloroplasten der Pflanzenzellen statt.",
+  "amount": 3
+}
