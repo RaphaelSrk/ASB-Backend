@@ -6,7 +6,7 @@ plugins {
 
 group = 'ch.bbw'
 version = '0.0.1-SNAPSHOT'
-description = 'demo'
+description = 'ASB-Backend'
 
 java {
     toolchain {

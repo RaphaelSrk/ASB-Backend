@@ -1,4 +1,10 @@
 package ch.bbw.ABSBackend.DTO;
 
-public record CategoryRequestDTO() {
+import java.util.List;
+
+public record CategoryRequestDTO(
+    String name,
+    String description,
+    List<Long> flashCardIds
+) {
 }
